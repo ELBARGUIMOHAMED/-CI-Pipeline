@@ -1,6 +1,6 @@
 # 🚀 Enterprise CI/CD Pipeline: Python App to Amazon ECR
 
-![CI Status](https://github.com/ELBARGUIMOHAMED/-CI-Pipeline/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/ELBARGUIMOHAMED/Cloud-Ci-Cd-Pipeline/actions/workflows/ci.yml/badge.svg)
 
 ## 🌟 Overview
 This project showcases a professional **CI/CD Pipeline** built with **GitHub Actions**. It automates code quality checks, containerization, and cloud delivery to **AWS**.
