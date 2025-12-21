@@ -6,6 +6,7 @@
 This project showcases a professional **CI/CD Pipeline** built with **GitHub Actions**. It automates code quality checks, containerization, and cloud delivery to **AWS**.
 
 ## 🗺️ Visual Architecture
+
 ```mermaid
 graph LR
     A[Local Code] -- git push --> B(GitHub Repo)
