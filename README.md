@@ -26,4 +26,4 @@ Every time code is pushed to the `main` branch, the following automated steps oc
 ![ECR Success](https://github.com/ELBARGUIMOHAMED/-CI-Pipeline/blob/main/ecr-success.png?raw=true)
 
 ---
-*Built with ❤️ by Mohamed ELBARGUI*
+*Built with Mohamed ELBARGUI*
