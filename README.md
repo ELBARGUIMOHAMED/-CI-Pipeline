@@ -1,6 +1,6 @@
 # 🚀 Enterprise CI/CD Pipeline: Python App to Amazon ECR
 
-![CI/CD Pipeline](https://github.com/ELBARGUIMOHAMED/-CI-Pipeline/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/ELBARGUIMOHAMED/-CI-Pipeline/actions/workflows/ci.yml/badge.svg)
 
 ## 🌟 Overview
 This project showcases a professional **CI/CD Pipeline** built with **GitHub Actions**. It automates code quality checks, containerization, and cloud delivery to **AWS**.
@@ -8,17 +8,17 @@ This project showcases a professional **CI/CD Pipeline** built with **GitHub Act
 ## 🗺️ Visual Architecture
 ```mermaid
 graph LR
-    A[Local Code] -- git push --> B(GitHub Repository)
+    A[Local Code] -- git push --> B(GitHub Repo)
     subgraph CI_Pipeline[CI Pipeline]
         B --> C{GitHub Actions}
-        C --> D[Linting: Flake8]
-        C --> E[Testing: Pytest]
+        C --> D[Flake8 Lint]
+        C --> E[Pytest]
     end
     subgraph CD_Pipeline[CD Pipeline]
-        E -- Success --> F[Docker Build Image]
-        F --> G[Push to Amazon ECR]
+        E -- Success --> F[Docker Build]
+        F --> G[Push to ECR]
     end
-    G --> H[AWS Cloud Deployment]    
+    G --> H[AWS Deployment]
 
 🏗 Pipeline Architecture (The "DevOps" Flow)
 
